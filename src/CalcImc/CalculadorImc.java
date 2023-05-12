@@ -34,7 +34,7 @@ public class CalculadorImc {
 			System.out.println("Peso Normal: " + totalArredondado);
 		} else if (totalArredondado < 29.9) {
 			System.out.println("Sobrepeso: " + totalArredondado);
-		} else if (total < 34.9) {
+		} else if (totalArredondado < 34.9) {
 			System.out.println("Obesidade grau 1: " + totalArredondado);
 		} else if (totalArredondado < 39.9) {
 			System.out.println("Obesidade grau 2: " + totalArredondado);
